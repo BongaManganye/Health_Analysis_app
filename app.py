@@ -7,7 +7,7 @@ load_dotenv()
 st.set_page_config(page_title="Blood Work Analyzer", layout="wide")
 
 # Fetch the key securely from Streamlit Cloud
-api_key = st.secrets["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"]
+api_key = st.secrets[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]
 
 # Pass the key explicitly into the LangChain model
 api_key = st.secrets["GOOGLE_API_KEY"]
