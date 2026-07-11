@@ -13,7 +13,7 @@ api_key = st.secrets["GOOGLE_API_KEY"]
 api_key = st.secrets["GOOGLE_API_KEY"]
 
 llm = ChatGoogleGenerativeAI(
-    model="gemma-4-31b-it",
+    model="gemini-1.5-flash",
     google_api_key=api_key
 )
 
